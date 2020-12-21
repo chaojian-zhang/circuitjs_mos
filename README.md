@@ -90,6 +90,10 @@ Known limitations of the Electron application:
 
 Thanks to @Immortalin for the initial work in applying Electron to CircuitJS1.
 
+## Troubleshooting
+
+* For issues concerning `[ERROR] Hint: Check that your module inherits 'com.google.gwt.core.Core' either directly or indirectly (most often by inheriting module 'com.google.gwt.user.User')` in Eclipse project. Following advice on this discussion (https://stackoverflow.com/questions/11691575/how-do-upgrade-to-gwt-2-5-in-eclipse) and replaced GWT to latest version. Also see [issue](https://github.com/sharpie7/circuitjs1/issues/440) here.
+
 ## License
 
 This program is free software; you can redistribute it and/or
